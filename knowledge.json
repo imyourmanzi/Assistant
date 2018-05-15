@@ -1,0 +1,29 @@
+{
+    "add": {
+        "description": "Find the sum of two numbers",
+        "params": 2,
+        "paramType": "int",
+        "returns": 1,
+        "returnType": "int",
+        "grammar": ".*(add|combine|sum|addition|all)\\s+(?P<p0>\\d+)\\s+(and|\\+|&|plus)\\s+(?P<p1>\\d+).*",
+        "keywords": "(add|combine|sum|addition|all)"
+    },
+    "learn": {
+        "description": "Used to teach Assistant new skills",
+        "params": 1,
+        "paramType": "str",
+        "returns": 0,
+        "returnType": "",
+        "grammar": ".*(learn|new skill)\\s+(?P<p0>\\w+).*",
+        "keywords": "(learn|new skill)"
+    },
+    "help": {
+        "description": "Display this dialog",
+        "params": 0,
+        "paramType": "",
+        "returns": 0,
+        "returnType": "",
+        "grammar": ".*(help|about|assist|all).*",
+        "keywords": "(help|about|assist|all)"
+    }
+}
