@@ -1,0 +1,2 @@
+Add the same number a certain number of times
+Add one number to a total a specific amount of times
