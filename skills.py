@@ -7,8 +7,8 @@ import json
 import constants as c
 
 # add finds the sum of param0 and param1
-def add(param0, param0):
-    sum = param0 + param0
+def add(param0, param1):
+    sum = param0 + param1
     return sum
 
 # learn creates a new skill named by param0
@@ -38,7 +38,7 @@ def learn(param0):
     # ask how to do it
     rawTask = input("How can I do that based on what I already know how to do? ")
 
-    
+
 
 
 
@@ -51,7 +51,7 @@ def help():
     with open(c.KNOWLEDGE, "r") as knowledgeFile:
         skills = json.load(knowledgeFile)
         for s in skills:
-            print("\t", s.capitalize(), "-", knowledge[s][c.DESC])
-            print("\t\t", knowledge[s][c.NUM_PARAM], knowledge[s][c.TYPE_PARAM],
-                "=>", knowledge[s][c.NUM_RET], knowledge[s][c.TYPE_RET])
+            print("\t", s.capitalize(), "-", skills[s][c.DESC])
+            print("\t\tIn:", skills[s][c.NUM_PARAM], skills[s][c.TYPE_PARAM],
+                "=> Out:", skills[s][c.NUM_RET], skills[s][c.TYPE_RET])
         print("\t Exit")
