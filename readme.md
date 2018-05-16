@@ -1,6 +1,6 @@
 # Hi, I'm Assistant
 
-Assistant is an AI that only knows one valuable skill (addition), but with your help can learn more!
+Assistant is an AI that only knows one valuable skill (addition).  With your help they can learn more!
 
 ## Using Assistant
 
@@ -18,13 +18,13 @@ Not much; asking Assistant for help will give you the following result:
 ```
 I am Assistant. I can help you with a variety of simple tasks.
 These are the things I know how to do:
-	 Add - Find the sum of two numbers
+	Add - Find the sum of two numbers
 		In: 2 int => Out: 1 int
-	 Learn - Used to teach Assistant new skills
-		In: 1 str => Out: 0
-	 Help - Display this dialog
-		In: 0  => Out: 0
-	 Exit
+	Learn - Used to teach Assistant new skills
+		In: 1 str => Out: None
+	Help - Display this dialog
+		In: None => Out: None
+	Exit
 ```
 
 ## Want to help?
