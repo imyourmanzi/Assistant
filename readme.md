@@ -27,10 +27,6 @@ These are the things I know how to do:
 	Exit
 ```
 
-## Want to help?
-
-Of course you can submit pull requests and add your own flare to the project, but if you're not sure how or don't have the time, fill out this form (it's only 1 quick question) --> https://goo.gl/forms/6UnOOEzhQP3VfUEL2 <---
-
 ## Disclaimer
 
 I am doing a lot of this VERY WRONG.  There will be many more proven, efficient ways to achieve the visible goal of this project.  The main goal is to force myself to think outside of the box and work on a project that a) differs from my other work, and b) incorporates a variety of skills into one cohesive unit, using what I have previously learned and what I can learn along the way.
