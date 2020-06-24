@@ -1,2 +1,5 @@
 # Python extra files
 __*
+
+# virtual environment
+/venv/
